@@ -16,24 +16,23 @@
         >
 
     <TextView
-        android:text="@string/mohamed_kamel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/textView"
-        tools:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mohamed_kamel"
         android:textSize="40sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        tools:textColor="@android:color/holo_red_dark"/>
 
     <Button
-        android:text="Button"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:onClick="toto"
-        tools:ignore="HardcodedText" />
+        android:text="@string/hello"
+        tools:ignore="HardcodedText"/>
 
 </RelativeLayout>
